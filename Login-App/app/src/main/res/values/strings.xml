@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Login App</string>
-    <string name="lp">Sign Up Page</string>
+    <string name="sp">Sign Up Page</string>
+    <string name="lp">Login Page</string>
     <string name="names">Name: </string>
     <string name="email">Email: </string>
     <string name="password">Password: </string>
