@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LabReport4</string>
+    <string name="wh_br_intent">The Android system automatically sends broadcasts when various system events occur,
+        such as when the system switches in and out of airplane mode.
+        The system sends these broadcasts to all apps that are subscribed to receive the event</string>
+    <string name="wh_br_rec" color="#FF272F">
+        A broadcast receiver is an Android component that allows an application to respond to messages (an Android Intent )
+        that are broadcast by the Android operating system or by an application.It will react to broadcast announcements.
+        It will do background functionalities as services. It will pass the data between activities.</string>
+    <string name="qna">Questions &amp; Answer</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradiant_background"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gadget For You"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="98dp"
+            android:text="Find Your Gadget"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/gadget_back">
+
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="@drawable/border"
+            android:elevation="0dp"
+            app:animation_duration="250"
+            app:area_margin="6dp"
+            app:inner_color="@color/black"
+            app:icon_margin="12dp"
+            app:slider_icon_color="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:outer_color="@color/transparent"
+            app:slider_height="70dp"
+            app:slider_locked="false"
+            app:text="Swipe to access"
+            app:text_color="@color/black"
+            app:text_style="bold"
+            app:text_size="24sp"
+            tools:layout_editor_absoluteX="40dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
